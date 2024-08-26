@@ -9,7 +9,7 @@
 - **Spring Security** (선택사항): 사용자 인증 및 권한 부여 기능
 
 ## 프로젝트 구조 (Project Structure)
-```plaintext
+
 src/
 ├── main/
 │   ├── java/                # 주요 비즈니스 로직
@@ -18,11 +18,6 @@ src/
 │      
 └── test/                    # 테스트 코드
 
-## 주요 기능 (Key Features)
-- **CRUD 기능**: 게시글 작성(Create), 조회(Read), 수정(Update), 삭제(Delete) 기능 구현
-- **MySQL 연동**: MySQL 데이터베이스를 활용한 데이터 저장 및 관리
-- **Thymeleaf 템플릿 엔진**: HTML 페이지를 동적으로 렌더링
-- **Spring Security** (선택사항): 사용자 인증 및 권한 부여 기능
 
 ## 기술 스택 (Tech Stack)
 - **Back-end**: Spring Boot, MySQL
