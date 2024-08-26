@@ -13,9 +13,10 @@
 src/
 ├── main/
 │   ├── java/                # 주요 비즈니스 로직
-│   └── resources/           # 설정 파일 및 Mustache 템플릿
+│   └── resources/           
+│       ├── templates/       # Mustache 템플릿 파일
+│      
 └── test/                    # 테스트 코드
-
 
 ## 기술 스택 (Tech Stack)
 - **Back-end**: Spring Boot, MySQL
