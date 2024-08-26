@@ -1,0 +1,25 @@
+{{>layouts/header}}
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Title</th>
+        <th scope="col">Content</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#article}}
+        <tr>
+            <th >{{id}}</th>
+            <td >{{title}}</td>
+            <td>{{content}}</td>
+        </tr>
+    {{/article}}
+    </tbody>
+</table>
+<a href="/articles/{{article.id}}/edit">Edit</a>   <!--1번글을 수정할 경우 /articles/1/edit페이지로
+id가 article의 속성이므로 {{article.id}}로 표시 범위를 따로 지정하지 않으면 article.id로 표시-->
+<a href ="/articles">Go to Article List</a>
+
+
+{{>layouts/footer}}
