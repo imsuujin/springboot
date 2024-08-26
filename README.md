@@ -9,7 +9,7 @@
 - **Spring Security** (선택사항): 사용자 인증 및 권한 부여 기능
 
 ## 프로젝트 구조 (Project Structure)
-
+```
 src/
 ├── main/
 │   ├── java/                # 주요 비즈니스 로직
@@ -17,7 +17,7 @@ src/
 │       ├── templates/       # Mustache 템플릿 파일
 │      
 └── test/                    # 테스트 코드
-
+```
 
 ## 기술 스택 (Tech Stack)
 - **Back-end**: Spring Boot, MySQL
@@ -27,6 +27,6 @@ src/
 
 ## 학습 내용 (Learning Points)
 - **Spring Boot**를 사용하여 간단한 웹 애플리케이션을 구축하는 방법
-- **RESTful API** 설계 및 구현
+- **RESTful API** 설계 및 구현   ( 이건 나중에 수정)
 - **Spring Data JPA**를 통한 데이터베이스 연동
 - **테스트 코드 작성** 및 **TDD**(Test-Driven Development) 방식으로 개발
