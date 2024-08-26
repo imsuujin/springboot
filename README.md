@@ -16,11 +16,13 @@ src/
 │   └── resources/           # 설정 파일 및 Mustache 템플릿
 └── test/                    # 테스트 코드
 
+
 ## 기술 스택 (Tech Stack)
 - **Back-end**: Spring Boot, MySQL
 - **Front-end**: Mustache, HTML, CSS
 - **Build Tool**: Gradle (Groovy)
 - **Version Control**: Git & GitHub
+
 
 ## 학습 내용 (Learning Points)
 - **Spring Boot**를 사용하여 간단한 웹 애플리케이션을 구축하는 방법
