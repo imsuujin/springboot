@@ -23,8 +23,8 @@ src/
 - **Build Tool**: Gradle (Groovy)
 - **Version Control**: Git & GitHub
 
-
 ## 학습 내용 (Learning Points)
 - **Spring Boot**를 사용하여 간단한 웹 애플리케이션을 구축하는 방법
+- **RESTful API** 설계 및 구현
 - **Spring Data JPA**를 통한 데이터베이스 연동
 - **테스트 코드 작성** 및 **TDD**(Test-Driven Development) 방식으로 개발
